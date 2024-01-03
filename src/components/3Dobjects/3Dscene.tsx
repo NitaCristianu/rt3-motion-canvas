@@ -30,11 +30,10 @@ export class Scene3D extends Rect {
         })
         if (!camera)
             logger.error("scene needs a camera added in the scene's initialization");
-        this.layout(true)
         
         this.add(<Three
             ref = {this.Three}
-            size = '100%'
+            size = {this.size}
             scene={this.scene}
             camera={camera.cam}
         />)

@@ -2,8 +2,16 @@
   "version": 0,
   "timeEvents": [
     {
+      "name": "zoom in",
+      "targetTime": 8.281261523651732
+    },
+    {
+      "name": "zoom out",
+      "targetTime": 10.410755990358654
+    },
+    {
       "name": "end",
-      "targetTime": 12.19209800400794
+      "targetTime": 13.752853994366594
     }
   ],
   "seed": 1854814504
